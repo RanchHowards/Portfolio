@@ -1,23 +1,37 @@
-// Fonts
-@import "https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap";
+/*!
+THEME: Kross - Creative Portfolio Template
+VERSION: 1.0.0
+AUTHOR: Themefisher
 
-@import "variables";
-@import "node_modules/bootstrap/scss/bootstrap.scss";
-@import "typography";
-@import "content";
-@import "navbar";
-@import "utilities";
+HOMEPAGE: https://themefisher.com/products/kross-creative-portfolio-template/
+DEMO: https://demo.themefisher.com/kross/
+GITHUB: https://github.com/themefisher/meghna-onepage-html5-business-template
 
+Get HUGO Version : https://gethugothemes.com/products/kross-hugo-theme/
 
+WEBSITE: https://themefisher.com
+TWITTER: https://twitter.com/themefisher
+FACEBOOK: https://www.facebook.com/themefisher
+*/
 
-//Mixins
-@import "mixins/buttons";
+@import 'variables';
 
-// Components
-@import "components/buttons";
-@import "components/cards";
-@import "components/forms";
-@import "components/modals";
+@import 'mixins';
 
+@import 'typography';
 
+@import 'buttons';
 
+@import 'common';
+
+@import 'templates/navigation';
+
+@import 'templates/hero-area';
+
+@import 'templates/homepage';
+
+@import 'templates/blog';
+
+@import 'templates/about';
+
+@import 'templates/portfolio';
