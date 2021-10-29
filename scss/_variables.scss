@@ -1,16 +1,22 @@
-// Color Variables
-$primary-color: #41228e;
-$secondary-color: #2bfdff;
-$text-color: #4c4c4c;
-$text-color-dark: #000;
-$text-color-light: #999999;
-$body-color: #fff;
-$border-color: #c7c7c7;
-$black: #000;
-$white: #fff;
-$gray: #eaeaea;
+$theme-colors: (
+  primary:         #000637,
+  secondary:       #bbbbf2,
+  success:         #5ed6b3,
+  info:            #1998ff,
+  warning:         #ffad00,
+  danger:          #ff0000,
+  light:           #fc7341,
+  dark:            #221e1e,
+);
 
-// Font Variables
-$primary-font: 'Roboto', sans-serif;
-$secondary-font: 'Playfair Display', serif;
-$icon-font: 'themify';
+$text-muted: #6e6e6e;
+
+///////// BUTTONS ////////
+
+$btn-padding-y: 0.625rem;
+$btn-padding-x: 1.25rem;
+$btn-font-size: 0.875rem;
+$btn-border-radius: .1875rem;
+
+
+///////// BUTTONS ////////
