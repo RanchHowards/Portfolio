@@ -21,70 +21,85 @@ TWITTER: https://twitter.com/themefisher
 FACEBOOK: https://www.facebook.com/themefisher
 */
 /*  typography */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400');
 body {
   line-height: 1.2;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c;
 }
 
-p, .paragraph {
+p,
+.paragraph {
   font-weight: 400;
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-p-lg, .paragraph-lg {
+p-lg,
+.paragraph-lg {
   font-size: 22px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 80px;
 }
 @media (max-width: 991px) {
-  h1, .h1 {
+  h1,
+  .h1 {
     font-size: 65px;
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 60px;
 }
 @media (max-width: 991px) {
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 50px;
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 40px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 22px;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
 }
 
 /* Button style */
 .btn {
   font-size: 22px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -120,7 +135,8 @@ h6, .h6 {
 .btn-primary:hover {
   background: #542cb7;
 }
-.btn-primary.focus, .btn-primary.active {
+.btn-primary.focus,
+.btn-primary.active {
   background: #542cb7 !important;
   box-shadow: none !important;
 }
@@ -130,7 +146,8 @@ h6, .h6 {
   color: #41228e;
   font-weight: bold;
 }
-.btn-transparent:active, .btn-transparent:hover {
+.btn-transparent:active,
+.btn-transparent:hover {
   color: #41228e;
 }
 
@@ -210,7 +227,7 @@ a:hover {
 }
 .section-title {
   margin-bottom: 80px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .bg-cover {
@@ -225,7 +242,7 @@ a:hover {
 }
 .overlay::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   top: 0;
@@ -319,11 +336,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Playfair Display", serif !important;
+  font-family: 'Playfair Display', serif !important;
 }
 
 .font-tertiary {
-  font-family: "Playfair Display", serif !important;
+  font-family: 'Playfair Display', serif !important;
 }
 
 .shadow {
@@ -427,14 +444,24 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   padding: 15px;
 }
 .navbar .nav-item.active {
   font-weight: bold;
 }
-
+.hover-picture {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.hover-picture:hover {
+  opacity: 1;
+}
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
@@ -521,8 +548,9 @@ textarea.form-control {
   width: 100%;
   height: 100%;
 }
-.wave::before, .wave::after {
-  content: "";
+.wave::before,
+.wave::after {
+  content: '';
   position: absolute;
   width: 800px;
   height: 800px;
@@ -532,7 +560,7 @@ textarea.form-control {
   border-radius: 45%;
   transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 6s linear infinite;
-          animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
   z-index: 10;
 }
 .wave::after {
@@ -540,7 +568,7 @@ textarea.form-control {
   background-color: rgba(255, 255, 255, 0.9);
   transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 10s linear -5s infinite;
-          animation: rotate 10s linear -5s infinite;
+  animation: rotate 10s linear -5s infinite;
   z-index: 20;
 }
 
@@ -694,7 +722,7 @@ textarea.form-control {
 }
 .shadow-down::before {
   position: absolute;
-  content: "";
+  content: '';
   box-shadow: 0px 0px 80.75px 14.25px rgba(224, 241, 255, 0.34);
   height: 100%;
   width: 100%;
@@ -728,7 +756,7 @@ blockquote {
   margin-bottom: 20px;
 }
 .content strong {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: normal;
   color: #000;
