@@ -869,4 +869,12 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
+
+.hidden {
+  color: white;
+  font-size: 10px;
+}
+.experience:hover .hidden {
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
